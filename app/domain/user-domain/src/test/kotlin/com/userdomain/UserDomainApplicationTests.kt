@@ -1,10 +1,10 @@
-package com.domain
+package com.userdomain
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class DomainApplicationTests {
+class UserDomainApplicationTests {
 
     @Test
     fun contextLoads() {

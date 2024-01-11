@@ -1,11 +1,11 @@
-package com.domain
+package com.userdomain
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class DomainApplication
+class UserDomainApplication
 
 fun main(args: Array<String>) {
-    runApplication<DomainApplication>(*args)
+    runApplication<UserDomainApplication>(*args)
 }

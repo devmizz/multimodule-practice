@@ -10,3 +10,4 @@ include(":app:application")
 include(":app:application:user-application")
 
 include(":app:domain")
+include(":app:domain:user-domain")
