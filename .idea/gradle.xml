@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app/domain" />
             <option value="$PROJECT_DIR$/app/domain/board-domain" />
             <option value="$PROJECT_DIR$/app/domain/user-domain" />
+            <option value="$PROJECT_DIR$/app/external" />
             <option value="$PROJECT_DIR$/app/presentation" />
             <option value="$PROJECT_DIR$/common" />
           </set>
