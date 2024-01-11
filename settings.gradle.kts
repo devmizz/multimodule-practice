@@ -4,4 +4,6 @@ include(":common")
 
 include(":app")
 include(":app:presentation")
+
 include(":app:application")
+include(":app:application:user-application")
