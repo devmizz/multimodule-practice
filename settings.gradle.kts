@@ -14,3 +14,4 @@ include(":app:domain:user-domain")
 include(":app:domain:board-domain")
 
 include(":app:external")
+include(":app:external:slack")
