@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/app/application" />
             <option value="$PROJECT_DIR$/app/application/user-application" />
+            <option value="$PROJECT_DIR$/app/domain" />
             <option value="$PROJECT_DIR$/app/presentation" />
             <option value="$PROJECT_DIR$/common" />
           </set>
