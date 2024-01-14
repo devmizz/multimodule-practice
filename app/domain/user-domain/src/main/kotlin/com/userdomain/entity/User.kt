@@ -1,9 +1,15 @@
 package com.userdomain.entity
 
+import jakarta.persistence.Entity
+import jakarta.persistence.Id
+import java.util.UUID
+
+@Entity
 class User(
-    id: String,
     name: String
 ) {
-    val id: String = id
+
+    @Id
+    val id: String = UUID.randomUUID().toString()
     val name: String = name
 }

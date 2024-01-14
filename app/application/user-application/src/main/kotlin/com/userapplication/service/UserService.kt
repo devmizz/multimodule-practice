@@ -1,16 +1,18 @@
 package com.userapplication.service
 
 import com.userdomain.entity.User
+import com.userdomain.repository.UserRepository
 import ifTrue
 import org.springframework.stereotype.Service
 
 @Service
-class UserService {
+class UserService(
+    private val userRepository: UserRepository
+) {
 
-    fun save() {
+    fun save(randomName: String): User {
         true.ifTrue { println("this is true") }
 
-        User("id", "name")
-        // Board("id", "title")
+        return userRepository.save(User(randomName))
     }
 }
