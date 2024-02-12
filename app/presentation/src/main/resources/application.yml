@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: dev
+    group:
+      local: user-local
+      dev: user-dev
