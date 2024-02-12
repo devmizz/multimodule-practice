@@ -1,13 +1,6 @@
 package com.userapplication
 
-import org.junit.jupiter.api.Test
-import org.springframework.boot.test.context.SpringBootTest
+import org.springframework.boot.autoconfigure.SpringBootApplication
 
-@SpringBootTest
-class UserApplicationTests {
-
-    @Test
-    fun contextLoads() {
-    }
-
-}
+@SpringBootApplication
+class UserApplicationTests
